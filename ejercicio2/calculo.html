@@ -7,10 +7,11 @@
 </head>
 <body>
 
-    <form action="calculo.php">
-        <label for="velocidad">Velocidad: </label><input id="velocidad" type="text"><br>
-        <label for="distancia">Distancia: </label><input id="distancia" type="text"><br>
-        <input type="submit">
+    <h1>Cálculo</h1>
+    <form action="calculo.php" method="GET">
+        <label for="velocidad">Velocidad: </label><input id="velocidad" type="text" name="velocidad"><br>
+        <label for="distancia">Distancia: </label><input id="distancia" type="text" name="distancia"><br>
+        <input type="submit" value="Enviar">
     </form>
     
 </body>

@@ -6,5 +6,5 @@ function tiempo($velocidad, $distancia) {
 }
 echo "El tiempo del viaje es " .tiempo($velocidad, $distancia);
 ?>
-
+<br>
 <a href="calculo.html">Atrás</a>
