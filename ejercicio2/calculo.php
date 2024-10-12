@@ -4,7 +4,7 @@ $distancia = $_GET['distancia'];
 function tiempo($velocidad, $distancia) {
     return $distancia / $velocidad;
 }
-echo "El tiempo del viaje es " .tiempo($velocidad, $distancia);
+echo "El tiempo que tomará el viaje es de " .tiempo($velocidad, $distancia)." horas.";
 ?>
 <br>
 <a href="calculo.html">Atrás</a>

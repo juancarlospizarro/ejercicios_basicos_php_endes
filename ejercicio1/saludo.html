@@ -1,13 +1,18 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<body>
-<h1>Formulario</h1>
-<form action="saludo.php" method="GET">
-<label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre"><br>
-<label for="apellidos">Apellidos: </label><input type="text" id="apellidos" name="apellidos"><br>
-<input type="submit" value="Enviar" redirect="saludo.php">
-</form>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo personalizado</title>
 </head>
+<body>
+
+    <h1>Saludo personalizado</h1>
+    <p>Introduzca su nombre y apellidos para recibir un saludo personalizado.</p><br>
+    <form action="saludo.php" method="GET">
+    <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre"><br>
+    <label for="apellidos">Apellidos: </label><input type="text" id="apellidos" name="apellidos"><br>
+    <input type="submit" value="Enviar" redirect="saludo.php">
+    
+</body>
 </html>
